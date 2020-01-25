@@ -1,0 +1,28 @@
+{
+  "name": "webpack-ts-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open --config config/webpack.base.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a129681/webpack-ts-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a129681/webpack-ts-template/issues"
+  },
+  "homepage": "https://github.com/a129681/webpack-ts-template#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
